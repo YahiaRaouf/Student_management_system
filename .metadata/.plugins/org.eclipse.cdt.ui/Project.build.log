@@ -1,14 +1,6 @@
-13:25:26 **** Incremental Build of configuration Debug for project Project ****
+16:49:55 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:81:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   81 |                         printf("%d" , calculateAverageGPA());
-      |                                 ~^    ~~~~~~~~~~~~~~~~~~~~~
-      |                                  |    |
-      |                                  int  double
-      |                                 %f
 gcc -o Project.exe main.o 
 
-13:25:26 Build Finished. 0 errors, 1 warnings. (took 292ms)
+16:49:55 Build Finished. 0 errors, 0 warnings. (took 198ms)
 

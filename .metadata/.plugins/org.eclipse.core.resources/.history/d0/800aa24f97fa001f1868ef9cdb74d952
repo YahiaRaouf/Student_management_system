@@ -98,8 +98,9 @@ int main() {
 
 void enterData(struct student *stdnt) {
     printf("Enter Student's Name: ");
-    scanf("%[^\n]s", stdnt->name);
-    //fgets(stdnt->name, sizeof(stdnt->name), stdin);
+    while (getchar() != '\n');
+    fgets(stdnt->name, sizeof(stdnt->name), stdin);
+    stdnt->name[strcspn(stdnt->name, "\n")] = 0; // Remove newline
     printf("Enter Student ID: ");
     scanf("%d", &stdnt->id);
     printf("Enter Student's Age: ");

@@ -159,3 +159,162 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
       |                                 %f
 gcc -o Project.exe main.o 
 Info: Nothing to build for Test
+16:05:58 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:07:04 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+16:10:03 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:10:10 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+16:11:03 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:11:10 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:11:11 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:11:11 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:12:01 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:12:04 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:12:36 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:70:4: error: a label can only be part of a statement and a declaration is not a statement
+    int id = 0;
+    ^~~
+16:13:07 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+16:24:37 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:24:55 **** Clean-only build of configuration Debug for project Project ****
+rm -rf main.o Project.exe main.d 
+rm: cannot remove `Project.exe': Permission denied
+16:24:57 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:24:57 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:25:01 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:25:08 **** Clean-only build of configuration Debug for project Project ****
+rm -rf main.o Project.exe main.d 
+rm: cannot remove `Project.exe': Permission denied
+16:25:09 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:25:26 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+16:28:46 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:29:00 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+16:44:55 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+16:47:40 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:47:41 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+16:47:56 **** Clean-only build of configuration Debug for project Project ****
+rm -rf main.o Project.exe main.d 
+16:47:56 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+16:49:53 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:49:55 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
