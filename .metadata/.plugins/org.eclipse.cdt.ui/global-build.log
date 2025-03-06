@@ -1,0 +1,161 @@
+20:44:14 **** Clean-only build of configuration Debug for project Project ****
+rm -rf main.d main.o Project.exe 
+20:44:15 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+20:47:24 **** Rebuild of configuration Debug for project Exercise2_Insert_Node_At_Last ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise2_Insert_Node_At_Last.o" "..\\src\\Exercise2_Insert_Node_At_Last.c" 
+..\src\Exercise2_Insert_Node_At_Last.c: In function 'findLinkList':
+..\src\Exercise2_Insert_Node_At_Last.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+gcc -o Exercise2_Insert_Node_At_Last.exe "src\\Exercise2_Insert_Node_At_Last.o" 
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+20:48:02 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+20:51:28 **** Rebuild of configuration Debug for project Dynamic_Allocation_Example ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Dynamic_Allocation_Example.o" "..\\src\\Dynamic_Allocation_Example.c" 
+gcc -o Dynamic_Allocation_Example.exe "src\\Dynamic_Allocation_Example.o" 
+20:51:28 **** Rebuild of configuration Debug for project Exercise1_Insert_Node_At_First ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise1_Insert_Node_At_First.o" "..\\src\\Exercise1_Insert_Node_At_First.c" 
+gcc -o Exercise1_Insert_Node_At_First.exe "src\\Exercise1_Insert_Node_At_First.o" 
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+20:51:28 **** Rebuild of configuration Debug for project Exercise3_Find_Linked_List_Size ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise3_Find_Linked_List_Size.o" "..\\src\\Exercise3_Find_Linked_List_Size.c" 
+gcc -o Exercise3_Find_Linked_List_Size.exe "src\\Exercise3_Find_Linked_List_Size.o" 
+20:51:29 **** Rebuild of configuration Debug for project Exercise4_Search_For_Item_Inside_List ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise4_Search_For_Item_Inside_List.o" "..\\src\\Exercise4_Search_For_Item_Inside_List.c" 
+gcc -o Exercise4_Search_For_Item_Inside_List.exe "src\\Exercise4_Search_For_Item_Inside_List.o" 
+20:51:29 **** Rebuild of configuration Debug for project Exercise5_Update_Item_Inside_List ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise5_Update_Item_Inside_List.o" "..\\src\\Exercise5_Update_Item_Inside_List.c" 
+gcc -o Exercise5_Update_Item_Inside_List.exe "src\\Exercise5_Update_Item_Inside_List.o" 
+20:51:29 **** Rebuild of configuration Debug for project Exercise6_Delete_Node_From_List ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise6_Delete_Node_From_List.o" "..\\src\\Exercise6_Delete_Node_From_List.c" 
+gcc -o Exercise6_Delete_Node_From_List.exe "src\\Exercise6_Delete_Node_From_List.o" 
+20:51:30 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Test
+20:51:34 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+20:54:21 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Dynamic_Allocation_Example
+Info: Nothing to build for Exercise1_Insert_Node_At_First
+Info: Nothing to build for Exercise2_Insert_Node_At_Last
+Info: Nothing to build for Exercise3_Find_Linked_List_Size
+Info: Nothing to build for Exercise4_Search_For_Item_Inside_List
+Info: Nothing to build for Exercise5_Update_Item_Inside_List
+Info: Nothing to build for Exercise6_Delete_Node_From_List
+20:57:31 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+Info: Nothing to build for Test
+Info: Nothing to build for Project
+21:07:27 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Project.exe main.o 
+21:12:49 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:81:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   81 |                         printf("%d" , calculateAverageGPA());
+      |                                 ~^    ~~~~~~~~~~~~~~~~~~~~~
+      |                                  |    |
+      |                                  int  double
+      |                                 %f
+gcc -o Project.exe main.o 
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:12:51 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -o Project.exe main.o 
+Info: Nothing to build for Project
+13:22:48 **** Rebuild of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:81:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   81 |                         printf("%d" , calculateAverageGPA());
+      |                                 ~^    ~~~~~~~~~~~~~~~~~~~~~
+      |                                  |    |
+      |                                  int  double
+      |                                 %f
+gcc -o Project.exe main.o 
+13:22:49 **** Rebuild of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o Test.exe test.o 
+Info: Nothing to build for Project
+13:23:01 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+..\test.c: In function 'main':
+..\test.c:13:17: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   13 |         int x = isdigit(c);
+      |                 ^~~~~~~
+..\test.c:9:1: note: include '<ctype.h>' or provide a declaration of 'isdigit'
+    8 | #include <stdio.h>
+  +++ |+#include <ctype.h>
+    9 | 
+gcc -o Test.exe test.o 
+Info: Nothing to build for Project
+13:23:17 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o Test.exe test.o 
+Info: Nothing to build for Test
+13:23:25 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o Test.exe test.o 
+Info: Nothing to build for Project
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Project
+Info: Nothing to build for Test
+Info: Nothing to build for Test
+Info: Nothing to build for Project
+13:23:55 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o Test.exe test.o 
+Info: Nothing to build for Test
+13:25:26 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:81:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   81 |                         printf("%d" , calculateAverageGPA());
+      |                                 ~^    ~~~~~~~~~~~~~~~~~~~~~
+      |                                  |    |
+      |                                  int  double
+      |                                 %f
+gcc -o Project.exe main.o 
+Info: Nothing to build for Test

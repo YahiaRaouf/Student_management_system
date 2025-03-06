@@ -1,0 +1,17 @@
+/*
+ * manageFuncs.h
+ *
+ *  Created on: Aug 11, 2024
+ *      Author: yahia raouf
+ */
+
+#ifndef MANAGEFUNCS_H_
+#define MANAGEFUNCS_H_
+#include "manageFuncs.c"
+
+void addStudent(const struct student *const students);
+void enterData();
+void displayStudents();
+
+
+#endif /* MANAGEFUNCS_H_ */

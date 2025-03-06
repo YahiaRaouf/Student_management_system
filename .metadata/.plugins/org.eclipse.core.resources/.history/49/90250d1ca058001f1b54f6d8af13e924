@@ -1,0 +1,12 @@
+/*
+ * test.c
+ *
+ *  Created on: Aug 12, 2024
+ *      Author: yahia raouf
+ */
+
+#include <stdio.h>
+
+int main(){
+	printf("%.*s", 15, "---------------------------------------------------");
+}

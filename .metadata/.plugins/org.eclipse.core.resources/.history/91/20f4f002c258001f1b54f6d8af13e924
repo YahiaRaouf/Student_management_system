@@ -1,0 +1,202 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 11, 2024
+ *      Author: yahia raouf
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student {
+	char name[50];
+	int id;
+	int age;
+	float gpa;
+};
+
+struct node {
+	struct student data;
+	struct node *next;
+};
+
+struct node *head = NULL;
+
+void enterData();
+void addStudent(struct student const*);
+void displayStudents();
+
+int main() {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	struct student stdnt;
+
+	enterData(&stdnt);
+	addStudent(&stdnt);
+}
+
+void enterData(struct student *stdnt) {
+	puts("Enter Students Name: ");
+	fflush(stdin);
+	fgets(stdnt->name, sizeof(stdnt->name), stdin);
+	puts("Enter Student ID: ");
+	scanf("%d", &stdnt->id);
+	puts("Enter Students Age: ");
+	scanf("%d", &stdnt->age);
+	puts("Enter Students GPA: ");
+	scanf("%f", &stdnt->gpa);
+}
+
+void addStudent(const struct student *const students) {
+
+	struct node *current = head;
+
+	while (current != NULL) {
+		if (current->data.id == students->id) {
+			puts("ERROR , Student ID already Exists!");
+			return;
+		}
+	}
+
+	struct node *link = (struct node*) malloc(sizeof(struct node));
+	if (link == NULL) {
+
+		puts("MEMORY ALLOCATION FAILED!");
+		return;
+	}
+
+	else {
+		link->data = *students;
+		link->next = NULL;
+
+		if (head == NULL) {
+			head = link;
+			return;
+		}
+
+		while (current->next != NULL) {
+			current = current->next;
+		}
+
+		current->next = link;
+	}
+}
+
+void displayStudents() {
+	struct node *current = head;
+
+	if (current == NULL) {
+		puts("No Students in the list!");
+		return;
+	}
+	int num = 1;
+	puts("Student Data!");
+	while (current != NULL) {
+		printf("%.*s\n", 50,
+				"----------------------------------------------------------------------");
+		printf("%d]", num);
+		printf("%d\n%s\n%d\n%.2f", current->data.id, current->data.name,
+				current->data.age, current->data.gpa);
+		current = current->next;
+		num++;
+	}
+}
+
+void searchStudentById(int id) {
+	struct node *current = head;
+	while (current != NULL) {
+		if (current->data.id == id) {
+			puts("Student Data!");
+			printf("%d\n%s\n%d\n%.2f", current->data.id, current->data.name,
+					current->data.age, current->data.gpa);
+			return;
+		} else
+			current = current->next;
+	}
+	puts("Student Not Found!");
+	return;
+}
+
+void updateStudent(int id) {
+	struct node *current = head;
+	while (current != NULL) {
+		if (current->data.id == id) {
+			puts("Edit Students Name: ");
+			fflush(stdin);
+			fgets(current->data.name, sizeof(current->data.name), stdin);
+			puts("Edit Student ID: ");
+			scanf("%d", &current->data.id);
+			puts("Edit Students Age: ");
+			scanf("%d", &current->data.age);
+			puts("Edit Students GPA: ");
+			scanf("%f", &current->data.gpa);
+			puts("Data Edited Successfully");
+
+		} else
+			current = current->next;
+	}
+
+	puts("Student not Found!");
+	return;
+}
+
+float calculateAverageGPA() {
+	struct node *current = head;
+
+	if (head == NULL) {
+		return 0.0;
+	}
+
+	float sum = 0;
+	int counter = 0;
+	float avg = 0;
+
+	while (current != NULL) {
+		sum += current->data.gpa;
+		counter++;
+	}
+
+	avg = sum / counter;
+	return avg;
+}
+
+void searchHighestGPA() {
+	struct node *current = head;
+	struct node *highest = head;
+
+	if (head == NULL) {
+		puts("No Students Found!");
+		return;
+	}
+
+	while (current->next != NULL) {
+		if (current->next->data.gpa > current->data.gpa) {
+			highest = current->next;
+		} else
+			current = current->next;
+	}
+}
+
+void deleteStudent(int id) {
+	struct node *current = head->next;
+	struct node *prev = head;
+	struct node *deletenode = NULL;
+
+	if (head == NULL) {
+		puts("No Students Found!");
+		return;
+	}
+
+	while (current != NULL) {
+		if (current->data.id == id) {
+
+			deletenode = current;
+
+			if(current == head){
+				head = deletenode->next;
+				return;
+		}
+	}
+}
+

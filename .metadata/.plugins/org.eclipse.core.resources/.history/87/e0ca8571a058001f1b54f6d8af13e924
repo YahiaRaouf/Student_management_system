@@ -1,0 +1,13 @@
+/*
+ * test.c
+ *
+ *  Created on: Aug 12, 2024
+ *      Author: yahia raouf
+ */
+
+#include <stdio.h>
+
+int main(){
+	printf("%-*c\n", 15, '------------------------------');
+	printf("%0*d\n", 20, 0);
+}

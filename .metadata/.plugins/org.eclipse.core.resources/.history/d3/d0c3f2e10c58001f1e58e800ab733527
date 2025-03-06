@@ -1,0 +1,40 @@
+/*
+ * ManageFuncs.c
+ *
+ *  Created on: Aug 11, 2024
+ *      Author: yahia raouf
+ */
+
+
+#include <stdio.h>
+
+struct student{
+	char name[50];
+	int id;
+	int age;
+	float gpa;
+};
+
+struct node{
+	struct student data;
+	struct node *next;
+};
+
+struct student stdnt;
+
+const struct student *const students = &stdnt;
+
+struct node *head = NULL;
+
+void enterData(){
+	puts("Enter Students Name: ");
+	fflush(stdin);
+	scanf("%s" , stdnt.name);
+	puts("Enter Student ID: ");
+	scanf("%d" , &stdnt->id);
+	puts()
+}
+
+void addStudent(const struct student *const students){
+
+}
